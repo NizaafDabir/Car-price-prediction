@@ -1,0 +1,83 @@
+/* Reset & base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background with car-themed wallpaper */
+body {
+    background-image: url("https://www.google.com/imgres?q=background%20image&imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F255379%2Fpexels-photo-255379.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-padrinan-255379.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbackground%2F&docid=_pUPWoKZqMHalM&tbnid=tnI6FDQy7A9VWM&vet=12ahUKEwiM5eT-8MONAxXmdvUHHSlQBQAQM3oECF0QAA..i&w=6016&h=4000&hcb=2&ved=2ahUKEwiM5eT-8MONAxXmdvUHHSlQBQAQM3oECF0QAA");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Container spacing */
+.mt-50 {
+    margin-top: 50px;
+}
+
+/* Card with glass effect over background */
+.card {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    backdrop-filter: blur(6px);
+}
+
+/* Header text */
+.card-header h1 {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    text-shadow: 1px 1px 5px #000;
+}
+
+/* Labels */
+label {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/* Inputs */
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+/* Button */
+button.btn-primary {
+    background-color: #ffcc00;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+button.btn-primary:hover {
+    background-color: #e6b800;
+    color: #fff;
+}
+
+/* Prediction result */
+#prediction {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .card {
+        margin: 20px;
+    }
+}
