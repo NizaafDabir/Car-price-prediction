@@ -1,50 +1,75 @@
-# Car Price Predictor
+# 🚗 Car Price Prediction Model
+[![Live Project](https://img.shields.io/badge/Live_Project-Click_Here-blue)](https://car-price-prediction-uwy6.onrender.com)
 
-Project link: https://car-price-price.herokuapp.com
-Demo Video: https://youtu.be/HEaFU68WAPM
+![dataset-cover](https://github.com/user-attachments/assets/61817b66-4982-45df-8df7-04788a75e990)
 
-<img src="https://github.com/rajtilakls2510/car_price_predictor/blob/master/demo.png">
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+## 📄 Introduction
 
+With a vast number of car models and configurations in the market, determining the accurate price of a car can be challenging. Our **Car Price Prediction Model** uses machine learning techniques to predict the price of a car based on its features such as brand, year, fuel type, and more. The goal is to assist buyers and sellers in making informed pricing decisions.
 
-# Aim
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-This project aims to predict the Price of an used Car by taking it's Company name, it's Model name, Year of Purchase, and other parameters.
+## 🚙 Dataset
 
-<img src="https://github.com/rajtilakls2510/car_price_predictor/blob/master/predict.png">
+The dataset used in this project is curated from multiple online sources including Kaggle. It contains various features relevant to car valuation.
 
-## How to use?
+**Key Attributes:**
+* **Brand/Model:** The make and model of the car.
+* **Year:** Manufacturing year of the car.
+* **Fuel Type:** Petrol, Diesel, CNG, etc.
+* **Transmission:** Manual or Automatic.
+* **Owner Type:** First owner, second, etc.
+* **Mileage, Engine, Power, Seats**
+* **Price:** Target variable — the selling price of the car.
 
-1. Clone the repository
-2. Install the required packages in "requirements.txt" file.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-Some packages are:
- - numpy 
- - pandas 
- - scikit-learn
+## 📑 Steps Involved
 
-3. Run the "application.py" file
-And you are good to go. 
+* **Loading and Cleaning Dataset**
+* **Handling Missing and Categorical Data**
+* **Feature Engineering**
+* **Model Training & Evaluation (Linear Regression, Random Forest, etc.)**
+* **Model Saving using Pickle**
+* **Creating a Web Application using Flask**
+* **Deploying the model on Render**
 
-# Description
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## What this project does?
+## 💻 Approaches Used
 
-1. This project takes the parameters of an used car like: Company name, Model name, Year of Purchase, Fuel Type and Number of Kilometers it has been driven.
-2. It then predicts the possible price of the car. For example, the image below shows the predicted price of our Hyundai Grand i10. 
+**1. Regression-Based Machine Learning Models:**
+* **Linear Regression** – Simple baseline model.
+* **Random Forest Regressor** – Captures complex non-linear patterns.
+* **Hyperparameter Tuning** – For better accuracy and performance.
 
-<img src="https://github.com/rajtilakls2510/car_price_predictor/blob/master/predict.png">
+**2. Flask Web Framework:**  
+Used to build a user-friendly web interface where users can input car details and get price predictions instantly.
 
-## How this project does?
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-1. First of all the data was scraped from Quikr.com (https://quikr.com) 
-Link for data: https://github.com/rajtilakls2510/car_price_predictor/blob/master/quikr_car.csv
+## 🔗 Deployment
 
-2. The data was cleaned (it was super unclean :( ) and analysed.
+This project is deployed using [Render](https://render.com).  
+👉 **Check the live app here**: [Click to Open](https://car-price-prediction-model.onrender.com)
 
-3. Then a Linear Regression model was built on top of it which had 0.92 R2_score.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-Link for notebook: https://github.com/rajtilakls2510/car_price_predictor/blob/master/Quikr%20Analysis.ipynb
+## :bulb: Conclusion
 
-4. This project was given the form of an website built on Flask where we used the Linear Regression model to perform predictions.
+* Helps users predict used car prices with high accuracy.
+* Useful for both buyers and sellers to estimate market value.
+* Easy-to-use web interface powered by Flask and deployed on the cloud.
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## :bulb: Reference
+
+* [Kaggle Car Dataset](https://www.kaggle.com/)
+* [Scikit-learn Documentation](https://scikit-learn.org/)
+* [Render Deployment](https://render.com/)
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nizaaf-dabir-524596203/)  
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NizaafDabir)
